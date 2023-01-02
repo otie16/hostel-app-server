@@ -49,7 +49,7 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => {
+  .then(() => { 
     console.log("Connected to db");
   })
   .catch((err) => {
