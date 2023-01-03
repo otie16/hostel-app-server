@@ -1,6 +1,6 @@
 const router = require("express").Router;
 const User = require("../models/user");
-
+ 
 const router = express.Router();
 //User Validation
 router.post("/", async (req, res, next) => {
